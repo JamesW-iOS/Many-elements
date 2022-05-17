@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250690A628221B2A00F2CAC4 /* TestBugTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250690A528221B2A00F2CAC4 /* TestBugTVApp.swift */; };
+		250690A828221B2A00F2CAC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250690A728221B2A00F2CAC4 /* ContentView.swift */; };
+		250690AA28221B2B00F2CAC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250690A928221B2B00F2CAC4 /* Assets.xcassets */; };
+		250690AD28221B2B00F2CAC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250690AC28221B2B00F2CAC4 /* Preview Assets.xcassets */; };
 		25F17FE62821034400EFBF3D /* TestBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F17FE52821034400EFBF3D /* TestBugApp.swift */; };
 		25F17FE82821034400EFBF3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F17FE72821034400EFBF3D /* ContentView.swift */; };
 		25F17FEA2821034500EFBF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F17FE92821034500EFBF3D /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		250690A328221B2A00F2CAC4 /* TestBugTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBugTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250690A528221B2A00F2CAC4 /* TestBugTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBugTVApp.swift; sourceTree = "<group>"; };
+		250690A728221B2A00F2CAC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		250690A928221B2B00F2CAC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250690AC28221B2B00F2CAC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25F17FE22821034400EFBF3D /* TestBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F17FE52821034400EFBF3D /* TestBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBugApp.swift; sourceTree = "<group>"; };
 		25F17FE72821034400EFBF3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		250690A028221B2A00F2CAC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25F17FDF2821034400EFBF3D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +48,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250690A428221B2A00F2CAC4 /* TestBugTV */ = {
+			isa = PBXGroup;
+			children = (
+				250690A528221B2A00F2CAC4 /* TestBugTVApp.swift */,
+				250690A728221B2A00F2CAC4 /* ContentView.swift */,
+				250690A928221B2B00F2CAC4 /* Assets.xcassets */,
+				250690AB28221B2B00F2CAC4 /* Preview Content */,
+			);
+			path = TestBugTV;
+			sourceTree = "<group>";
+		};
+		250690AB28221B2B00F2CAC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				250690AC28221B2B00F2CAC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		25F17FD92821034400EFBF3D = {
 			isa = PBXGroup;
 			children = (
 				25F17FE42821034400EFBF3D /* TestBug */,
+				250690A428221B2A00F2CAC4 /* TestBugTV */,
 				25F17FE32821034400EFBF3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				25F17FE22821034400EFBF3D /* TestBug.app */,
+				250690A328221B2A00F2CAC4 /* TestBugTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +107,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		250690A228221B2A00F2CAC4 /* TestBugTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250690AE28221B2B00F2CAC4 /* Build configuration list for PBXNativeTarget "TestBugTV" */;
+			buildPhases = (
+				2506909F28221B2A00F2CAC4 /* Sources */,
+				250690A028221B2A00F2CAC4 /* Frameworks */,
+				250690A128221B2A00F2CAC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestBugTV;
+			productName = TestBugTV;
+			productReference = 250690A328221B2A00F2CAC4 /* TestBugTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 		25F17FE12821034400EFBF3D /* TestBug */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F17FF02821034500EFBF3D /* Build configuration list for PBXNativeTarget "TestBug" */;
@@ -77,6 +131,7 @@
 				25F17FDE2821034400EFBF3D /* Sources */,
 				25F17FDF2821034400EFBF3D /* Frameworks */,
 				25F17FE02821034400EFBF3D /* Resources */,
+				25EAE652282A188C006926D1 /* Integrate Reveal Server */,
 			);
 			buildRules = (
 			);
@@ -97,6 +152,9 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					250690A228221B2A00F2CAC4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					25F17FE12821034400EFBF3D = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -116,11 +174,21 @@
 			projectRoot = "";
 			targets = (
 				25F17FE12821034400EFBF3D /* TestBug */,
+				250690A228221B2A00F2CAC4 /* TestBugTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		250690A128221B2A00F2CAC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250690AD28221B2B00F2CAC4 /* Preview Assets.xcassets in Resources */,
+				250690AA28221B2B00F2CAC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25F17FE02821034400EFBF3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,7 +200,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25EAE652282A188C006926D1 /* Integrate Reveal Server */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Integrate Reveal Server";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\n BUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\n if [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n \"${BUILD_SCRIPT_PATH}\"\n else\n echo \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\n fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2506909F28221B2A00F2CAC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250690A828221B2A00F2CAC4 /* ContentView.swift in Sources */,
+				250690A628221B2A00F2CAC4 /* TestBugTVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25F17FDE2821034400EFBF3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +243,62 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		250690AF28221B2B00F2CAC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestBugTV/Preview Content\"";
+				DEVELOPMENT_TEAM = R98CCK63WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thetrex.TestBugTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		250690B028221B2B00F2CAC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestBugTV/Preview Content\"";
+				DEVELOPMENT_TEAM = R98CCK63WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.thetrex.TestBugTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
 		25F17FEE2821034500EFBF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +476,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		250690AE28221B2B00F2CAC4 /* Build configuration list for PBXNativeTarget "TestBugTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250690AF28221B2B00F2CAC4 /* Debug */,
+				250690B028221B2B00F2CAC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		25F17FDD2821034400EFBF3D /* Build configuration list for PBXProject "TestBug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
       ScrollView {
         VStack {
-          ForEach(0..<400) { number in
+          ForEach(0..<150) { number in
             HStack {
               Button {
                 print("I'm tapped")
